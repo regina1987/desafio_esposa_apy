@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @baby.name %>
+</p>
+<p>  <strong>Cunatos veses en su vida:</strong>
+  <%= @baby.leche %>
+</p>
+<p>
+<strong>Veces hoy:</strong>
+  <%= @baby.veses_hoy%>
+</p>
+
+<p>
+<strong> Cuánto tiempo ha tomado este día:</strong>
+  <%= @baby.este_dia%>
+</p>
+
+<p>
+<strong>Ultima vez:</strong>
+  <%= time_ago_in_words(@baby.lastime)%>
+</p>
+<%= link_to 'Edit', edit_baby_path(@baby) %> |
+<%= link_to 'Back', babies_path %>

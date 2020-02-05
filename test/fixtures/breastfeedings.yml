@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  baby: one
+  volume: 1
+  timefeed: MyString
+  integer: MyString
+
+two:
+  baby: two
+  volume: 1
+  timefeed: MyString
+  integer: MyString
